@@ -27,6 +27,13 @@ Created a React JS frontend application that integrates OpenAI's API using Boots
     - After installing, run `npm start` to start the server
 
 # 2. Set Up / Modify the OpenAI API Key
+    -> Getting an OpenAI API KEY:
+    - Go to [platform.openai.com](https://platform.openai.com/api-keys)
+    - Sign up or log in
+    - Navigate to API Keys section
+    - Create a new API key
+
+    -> Adding it in the project:
     - Navigate to the '.env' file in the root directory
     - The value of 'REACT_APP_OPENAI_API_KEY' attribute is the API Key, modify it to use another API Key.
     - Make sure your API key is valid and has credits
